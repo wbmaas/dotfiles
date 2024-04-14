@@ -6,7 +6,8 @@ config.color_scheme = 'AdventureTime'
 config.font = wezterm.font 'Ubuntu Mono'
 config.font_size = 24
 -- config.color_scheme = 'Galaxy'
-config.color_scheme = 'Gruvbox dark, hard (base16)'
+-- config.color_scheme = 'Gruvbox dark, hard (base16)'
+config.color_scheme = 'Tokyo Night'
 config.use_fancy_tab_bar = false
 
 wezterm.on('gui-startup', function(cmd)
