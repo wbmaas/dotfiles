@@ -9,6 +9,7 @@ config.font_size = 24
 -- config.color_scheme = 'Gruvbox dark, hard (base16)'
 config.color_scheme = 'Tokyo Night'
 config.use_fancy_tab_bar = false
+config.hide_tab_bar_if_only_one_tab = true
 
 wezterm.on('gui-startup', function(cmd)
   local tab, pane, window = mux.spawn_window(cmd or {})
